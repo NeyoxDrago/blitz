@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/intro"
+        android:orderInCategory="100"
+        android:title="Introduction"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/Brief"
+        android:orderInCategory="100"
+        android:title="Philosophy"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/history"
+        android:orderInCategory="100"
+        android:title="Goals"
+        app:showAsAction="always"/>
+
+    <item
+        android:orderInCategory="100"
+        android:id="@+id/Senior_Message"
+        android:title="Seniors Contribution"
+        app:showAsAction="always"/>
+</menu>

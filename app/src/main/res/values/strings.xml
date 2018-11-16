@@ -1,0 +1,40 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">blitz</string>
+
+    <string-array name="courses">
+        <item>B.Sc. (H) Computer Science 1 year</item>
+        <item>B.Sc. (H) Computer Science 2 year</item>
+        <item>B.Sc. (H) Computer Science 3 year</item>
+        <item>B.Sc. (H) Physical Science 1 year</item>
+        <item>B.Sc. (H) Physical Science 2 year</item>
+        <item>B.Sc. (H) Physical Science 3 year</item>
+        <item>B.Sc. (H) Mathematical Science 1 year</item>
+        <item>B.Sc. (H) Mathematical Science 2 year</item>
+        <item>B.Sc. (H) Mathematical Science 3 year</item>
+    </string-array>
+
+
+    <string-array name="colors">
+        <item>#F44336</item>
+        <item>#E91E63</item>
+        <item>#4A148C</item>
+        <item>#311B92</item>
+        <item>#64B5F6</item>
+        <item>#4CAF50</item>
+        <item>#FFEB3B</item>
+        <item>#FF3D00</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>python</item>
+        <item>C++</item>
+        <item>C</item>
+        <item>Java</item>
+        <item>Node.js</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_facts">facts</string>
+    <string name="title_activity_idea">IdeaActivity</string>
+</resources>

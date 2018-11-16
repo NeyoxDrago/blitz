@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kmv.com.blitz.AboutActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        app:title="About"
+        app:titleTextColor="#FAFAFA"
+        android:background="#123534"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="10dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="@drawable/blitzz"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_marginTop="120dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FAFAFA"
+                android:text="The computer Society of keshav Mahavidyalaya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="15dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Team Members"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/aboutrecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Discription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:fontFamily="sans-serif"
+                android:textStyle="italic"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:text="Wallah habibi tum humko nhi janti  ... Hum tumahre blitz societ ka member
+                 hotti aur tum humko nhi jaanti , tumm humko nhi janti  , maharaj tumse naraz hoti "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+</ScrollView>

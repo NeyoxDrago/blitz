@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kmv.com.blitz.FerrisWheel">
+
+    <ru.github.igla.ferriswheel.FerrisWheelView
+        app:fwv_cabinsNumber="8"
+        app:fwv_rotateSpeed="6"
+        app:fwv_cabinSize="10dp"
+        app:fwv_isClockwise="true
+"
+        android:layout_gravity="center"
+        android:id="@+id/ferriswheel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

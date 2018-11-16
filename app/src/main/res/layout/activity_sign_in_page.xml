@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kmv.com.blitz.SignInPage">
+
+    <RelativeLayout
+        android:background="@drawable/back"
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#FAFAFA"
+                android:text="BLITZ:"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FAFAFA"
+                android:text="THE COMPUTER SOCIETY OF KESHAV MAHAVIDYALAYA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+
+            android:layout_margin="25dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            android:layout_width="300dp"
+            android:layout_height="330dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/signinEmailID"
+                    android:hint="Email ID"
+                    app:hintAnimationEnabled="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <EditText
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/signinPassword"
+                    android:hint="Password"
+                    app:hintAnimationEnabled="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <EditText
+                        android:layout_margin="5dp"
+                        android:inputType="textPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/signinmebaby"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginTop="25dp"
+                    android:layout_gravity="center"
+                    android:text="SIgn In"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_marginTop="7dp"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="New User?"
+                        android:gravity="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/newuser"
+                        android:layout_weight="1"
+                        android:text="Click Here"
+                        android:textColor="#3D5AFE"
+                        android:gravity="start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
